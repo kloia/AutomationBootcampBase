@@ -1,22 +1,19 @@
-Kurulum
+# Requirements
 
-Java 8 ve uzeri bir java kurulumu yapilmalidir. (Tercih edilen surum 8)
+* Java 8 or higher version should be installed (Version 8 is preferred)
 
-Link https://www.oracle.com/java/technologies/downloads/#java8
-
-Maven kurulumu yapilmis olmalidir. 
-
-https://maven.apache.org/download.cgi
-
-https://maven.apache.org/install.html
-
-IntellIJ IDE kurulumu tamamlanmis olmalidir.
-
-https://www.jetbrains.com/idea/download/
+  * Link https://www.oracle.com/java/technologies/downloads/#java8
 
 
-Proje IntelliJ IDEA ile acildiktan sonra src/test/java/bootcamp/tests/ altindaki DemoTest class i calisitirilmali ve 
-chrome un acilip websitesini ziyaret ettikten sonra kapandigi ile projenin calistigi teyit edilmelidir.
+* Maven should be installed 
+  * https://maven.apache.org/download.cgi
+  * https://maven.apache.org/install.html
 
-Daha sonra terminalden mvn test komutuyla projenin yine calistigi goruntulenmelidir. 
 
+* Intellij IDE should be installed
+  * https://www.jetbrains.com/idea/download/
+
+
+* Once the installations above are completed, the base project should be opened with Intellij Idea.
+`DemoTest` class at `src/test/java/bootcamp/tests/` should be executed. During the execution, opening `chrome` browser
+and visiting the web url should be verified. Besides, the project execution should be verified by `mvn test` command on terminal.
